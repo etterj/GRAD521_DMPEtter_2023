@@ -15,7 +15,7 @@ For each sample, the following data will be collected:
 ● Sample metadata (identifier, volume, concentration, preparation date)
 
 ## Roles and Responsibilities
-    In the research project, I will primarily perform data collection and analysis responsibilities, 
+In the research project, I will primarily perform data collection and analysis responsibilities, 
 including data and metadata generation, data analysis, and data organization. The PI will be 
 responsible for the management procedures, including protection of sensitive data (when 
 applicable), data preservation, access control, and enforcement of the DMP. The Research 
@@ -27,11 +27,12 @@ responsibilities
 
 ## Storage and Security
 ### Data Storage
-    The data I will be handling as part of this research project is not considered sensitive or 
+The data I will be handling as part of this research project is not considered sensitive or 
 confidential according to OSU’s definitions. All samples will have been de-identified prior to 
 being received by the lab. As far as I am aware, the data being collected will not need to be 
 protected.
-    During the project, the raw data will be stored locally on the computer in the lab that is 
+
+During the project, the raw data will be stored locally on the computer in the lab that is 
 attached to the mass spectrometry system. Additional copies of raw and processed data will be 
 kept in my Google Drive and OneDrive, and the PI will also retain a copy of all processed data.
 Any physical data will be kept in a folder with my lab notebook to prevent loss or damage of the 
@@ -40,7 +41,7 @@ Box. In total, a minimum of 4 copies of processed data will be stored among diff
 and operating systems to ensure that, in the event of a software failure, the data will not be lost. 
     
 ### Contingency Plan
-    To ensure that any data associated with my ONID account (including Google Drive and 
+To ensure that any data associated with my ONID account (including Google Drive and 
 OneDrive) will not be lost upon my graduation, I will make sure the PI has a copy of all raw and 
 processed data that was once stored on my account. My lab notebook and any physical printed 
 data will also remain in the lab
