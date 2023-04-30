@@ -10,9 +10,9 @@ de-identified prior to analysis. The raw data output will be in the form of grap
 One set of output data will be generated for each sample (the exact number of samples being analyzed is currently unknown).
 
 For each sample, the following data will be collected:
-*Data output graphs (2)
-*Metadata from analysis (temperature, instrument parameters)
-*Sample metadata (identifier, volume, concentration, preparation date)
+* Data output graphs (2)
+* Metadata from analysis (temperature, instrument parameters)
+* Sample metadata (identifier, volume, concentration, preparation date)
 
 ## Roles and Responsibilities
 In the research project, I will primarily perform data collection and analysis responsibilities, 
