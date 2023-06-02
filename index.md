@@ -46,7 +46,7 @@ OneDrive) will not be lost upon my graduation, I will make sure the PI has a cop
 processed data that was once stored on my account. My lab notebook and any physical printed 
 data will also remain in the lab
 
-# Data Standards and Metadata
+## Data Standards and Metadata
 ### In order to maintain organization of documented data, a number of strategies will be utilized. 
 Most importantly, virtual files will be carefully named with proper date and pertinent 
 methodology information in the title of the document. These documents will then be placed in 
@@ -69,7 +69,7 @@ file metadata, spectrum metadata, scan data, and raw m/z data for the analysis. 
 contains all pertinent information for a single mass spectrometry sample run, and simplifies the 
 sharing, distribution and analysis of this information.
 
-# Access and Data Sharing
+## Access and Data Sharing
 ### There are no factors that will limit or delay the sharing of the data. Restricted data,
 when applicable, may be shared to other members of the research team, as well as anyone
 outside of the team who has received permission from the PI to receive the restricted data.
@@ -81,7 +81,7 @@ produced data and will fall under the same terms of use. In addition to this, la
 will be kept by the PI and subsequently transferred to another faculty member or archived by 
 the university.
 
-# Archiving
+## Archiving
 ### All data and metadata will be preserved via publication to the National Metabolomics 
 Data Repository. This repository has been archiving metabolomics data sets since 2013, with 
 the most recent archive being uploaded on May 19th, 2023. Although there is no specific 
