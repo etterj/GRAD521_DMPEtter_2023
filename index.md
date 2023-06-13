@@ -1,17 +1,20 @@
 # Content of the DMP
 
 ## Data Description
-I will be collecting information regarding the concentration of a variety of oxylipins. I will also need to keep track
-of the various samples being analyzed, and any relevant metadata pertaining to the analysis (such as
-instrument/method parameters, system temperature, flow rates, etc). While the samples are from
-humans, our lab is not facilitating the collection of the samples and all human samples will have been
-de-identified prior to analysis. The raw data output will be in the form of graphs and/or datasheets.
-One set of output data will be generated for each sample (the exact number of samples being analyzed is currently unknown).
+I will be collecting information regarding the concentration of a variety of oxylipins. I will also 
+need to keep track of the various samples being analyzed, and any relevant metadata pertaining to 
+the analysis (such as instrument/method parameters, system temperature, flow rates, etc). While the 
+samples are from humans, our lab is not facilitating the collection of the samples and all human 
+samples will have been de-identified prior to analysis. Sample collection and de-identification will 
+be done by Oregon Health and Science University (OHSU). The raw data output will be in the form of 
+graphs and/or datasheets. One set of output data will be generated for each sample (the exact number 
+of samples being analyzed is currently unknown, but will likely be between 10 and 30 samples). The 
+total size of all data files will likely be between 0.5 and 1.0 GB. 
 
 For each sample, the following data will be collected:
-* Data output graphs (2)
-* Metadata from analysis (temperature, instrument parameters)
-* Sample metadata (identifier, volume, concentration, preparation date)
+* Data output and graphs (2)- physical image(s) with accompanying .csv file(s)
+* Metadata from analysis (temperature, instrument parameters)- text file(s)
+* Sample metadata (identifier, volume, concentration, preparation date)- text file(s)
 
 ## Roles and Responsibilities
 In the research project, I will primarily perform data collection and analysis responsibilities, 
@@ -27,23 +30,22 @@ responsibilities
 ## Storage and Security
 ### Data Storage
 The data I will be handling as part of this research project is not considered sensitive or 
-confidential according to OSU’s definitions. All samples will have been de-identified prior to 
-being received by the lab. As far as I am aware, the data being collected will not need to be 
-protected.
+confidential according to OSU’s definitions. All samples will have been collected following HIPPA 
+guidelines, and de-identified by OHSU prior to being received by the lab. As far as I am aware, 
+the data being collected will not need to be protected.
 
-During the project, the raw data will be stored locally on the computer in the lab that is 
-attached to the mass spectrometry system. Additional copies of raw and processed data will be 
-kept in my Google Drive and OneDrive, and the PI will also retain a copy of all processed data.
-Any physical data will be kept in a folder with my lab notebook to prevent loss or damage of the 
-prints. If ever applicable, sensitive data or other data that needs to be protected will be stored in 
-Box. In total, a minimum of 4 copies of processed data will be stored among different computers 
-and operating systems to ensure that, in the event of a software failure, the data will not be lost. 
+During the project, the raw data and metadata will be stored locally on the computer in the lab 
+that is attached to the mass spectrometry system. Additional copies of raw and processed data will 
+be kept in my Google Drive and OneDrive, and the PI will also retain a copy of all processed data.
+Any physical data (excluding samples) will be kept in a folder with my lab notebook to prevent loss 
+or damage of the prints. Samples will be stored in the laboratory refridgerator in properly labeled
+storage boxes (proper labeling includes sample type, date, name(s) of researchers). 
     
 ### Contingency Plan
 To ensure that any data associated with my ONID account (including Google Drive and 
 OneDrive) will not be lost upon my graduation, I will make sure the PI has a copy of all raw and 
 processed data that was once stored on my account. My lab notebook and any physical printed 
-data will also remain in the lab
+data will also remain in the lab.
 
 ## Data Standards and Metadata
 In order to maintain organization of documented data, a number of strategies will be utilized. 
@@ -62,16 +64,18 @@ as soon as possible once the project has began, and any updates will be made whe
 
 The Mass Spectrometry Markup Language (mzML) is a data standard that is specifically 
 designed to document the complex raw data output of mass spectrometers.1 This data standard is 
-based in XML and also supports the storage of metadata. An example mzML file is shown on the 
-next page. Without getting deep into the specifics of lipidomic research, the mzML files contain
-file metadata, spectrum metadata, scan data, and raw m/z data for the analysis. This data file 
-contains all pertinent information for a single mass spectrometry sample run, and simplifies the 
-sharing, distribution and analysis of this information.
+based in XML and also supports the storage of metadata. Without getting deep into the specifics of 
+lipidomic research, the mzML files contain file metadata, spectrum metadata, scan data, and raw m/z 
+data for the analysis. This data file contains all pertinent information for a single mass 
+spectrometry sample run, and simplifies the sharing, distribution and analysis of this information. 
+MzML files are generated by the mass spectrometry software and can be exported, opened, and 
+otherwise handled the same as a .xml file.
+
+Version control is not applicable to the data or metadata, as this information is collected one time
+and is not altered after collection or during analysis.
 
 ## Access and Data Sharing
-There are no factors that will limit or delay the sharing of the data. Restricted data,
-when applicable, may be shared to other members of the research team, as well as anyone
-outside of the team who has received permission from the PI to receive the restricted data.
+There are no factors that will limit or delay the sharing of the data.
 Data will be made publicly available upon publication of the first research paper to use the 
 data. Data will be published as plain text files (.csv) on the National Metabolomics Data 
 Repository. Data will fall under a CC-BY licensure to allow open access to the information with 
@@ -85,10 +89,12 @@ All data and metadata will be preserved via publication to the National Metabolo
 Data Repository. This repository has been archiving metabolomics data sets since 2013, with 
 the most recent archive being uploaded on May 19th, 2023. Although there is no specific 
 archival time listed on the site, previous upload suggests a minimal preservation period of 10 
-years if not longer. Accessed to the data will be maintained by the repository, which is 
-sponsored by the Common Fund of the National Institute of Health. Upon deposition to the 
-repository, uploaded files cannot be altered or removed unless formally done through the 
-repository.
+years if not longer. Oregon State University has a data archiving policy stating that data must 
+be retained for a minimum of 5 years, which this repository is in compliance of. Accessed to the 
+data will be maintained by the repository, which is sponsored by the Common Fund of the National 
+Institute of Health. Upon deposition to the repository, uploaded files cannot be altered or 
+removed unless formally done through the repository. After review, archived data is assigned with 
+a Project ID and Study ID for easy identification within the repository. 
 
 As stated above, all plain text files (.csv) and metadata files will be uploaded to the 
 repository. Laboratory notebooks and analysis charts generated by the equipment will be 
